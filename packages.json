@@ -58,6 +58,15 @@
     "repo": "https://github.com/hdgarrood/purescript-ansi",
     "version": "v5.0.0"
   },
+  "argonaut": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "argonaut-traversals"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
+    "version": "v4.0.0"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
@@ -73,6 +82,26 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
+    "version": "v4.0.0"
+  },
+  "argonaut-traversals": {
+    "dependencies": [
+      "argonaut-core",
+      "argonaut-codecs",
+      "profunctor-lenses"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
+    "version": "v4.0.0"
+  },
+  "argonaut-codecs": {
+    "dependencies": [
+      "argonaut-core",
+      "foreign-object",
+      "integers",
+      "maybe",
+      "ordered-collections"
+    ],
+    "repo": "git://github.com/purescript-contrib/purescript-argonaut-codecs.git",
     "version": "v4.0.0"
   },
   "arraybuffer-types": {
