@@ -104,39 +104,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v4.0.1"
   },
-  "prettier": {
-    "dependencies": [
-      "prelude",
-      "maybe"
-    ],
-    "repo": "https://github.com/gcanti/purescript-prettier.git",
-    "version": "v0.2.0"
-  },
-  "colors": {
-    "dependencies": [
-      "arrays",
-      "integers",
-      "lists",
-      "partial",
-      "strings"
-    ],
-    "repo": "https://github.com/sharkdp/purescript-colors.git",
-    "version": "v5.0.0"
-  },
-  "css": {
-    "dependencies": [
-      "generics-rep",
-      "nonempty",
-      "profunctor",
-      "strings",
-      "these",
-      "transformers",
-      "colors",
-      "console"
-    ],
-    "repo": "https://github.com/slamdata/purescript-css.git",
-    "version": "v4.0.0"
-  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
@@ -295,14 +262,14 @@
   },
   "css": {
     "dependencies": [
-      "colors",
-      "console",
       "generics-rep",
       "nonempty",
       "profunctor",
       "strings",
       "these",
-      "transformers"
+      "transformers",
+      "colors",
+      "console"
     ],
     "repo": "https://github.com/slamdata/purescript-css.git",
     "version": "v4.0.0"
@@ -1203,8 +1170,8 @@
   },
   "prettier": {
     "dependencies": [
-      "maybe",
-      "prelude"
+      "prelude",
+      "maybe"
     ],
     "repo": "https://github.com/gcanti/purescript-prettier.git",
     "version": "v0.2.0"
@@ -1535,6 +1502,19 @@
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v4.0.0"
+  },
+  "stringutils": {
+    "dependencies": [
+      "strings",
+      "partial",
+      "arrays",
+      "either",
+      "maybe",
+      "prelude",
+      "integers"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
   },
   "strongcheck": {
     "dependencies": [
