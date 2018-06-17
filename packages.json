@@ -424,6 +424,16 @@
     "repo": "https://github.com/doolse/purescript-uri.git",
     "version": "compiler/0.12"
   },
+  "remotedata": {
+    "dependencies": [
+      "bifunctors",
+      "either",
+      "generics-rep",
+      "profunctor-lenses"
+    ],
+    "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
+    "version": "v4.0.0"
+  },
   "parsing": {
     "dependencies": [
       "arrays",
