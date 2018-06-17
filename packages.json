@@ -886,6 +886,48 @@
     "repo": "https://github.com/purescript/purescript-prelude.git",
     "version": "v4.0.0"
   },
+    "unicode-prelude": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/vyorkin/purescript-unicode-prelude.git",
+    "version": "v0.2.3"
+  },
+  "run": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "free",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce",
+      "variant",
+      "profunctor"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-run.git",
+    "version": "v2.0.0"
+  },
+  "polyform": {
+    "dependencies": [
+      "newtype",
+      "generics-rep",
+      "ordered-collections",
+      "variant",
+      "transformers",
+      "profunctor",
+      "invariant",
+      "run",
+      "foreign",
+      "foreign-object"
+    ],
+    "repo": "https://github.com/paluh/purescript-polyform.git",
+    "version": "v0.7.0"
+  },
   "profunctor": {
     "dependencies": [
       "contravariant",
