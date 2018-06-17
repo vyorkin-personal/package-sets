@@ -1197,6 +1197,19 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v4.0.0"
   },
+  "stringutils": {
+    "dependencies": [
+      "strings",
+      "partial",
+      "arrays",
+      "either",
+      "maybe",
+      "prelude",
+      "integers"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
