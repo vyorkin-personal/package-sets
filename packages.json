@@ -1389,6 +1389,7 @@
   "run": {
     "dependencies": [
       "aff",
+      "effect",
       "either",
       "free",
       "maybe",
@@ -1399,8 +1400,7 @@
       "type-equality",
       "unsafe-coerce",
       "variant",
-      "profunctor",
-      "effect"
+      "profunctor"
     ],
     "repo": "https://github.com/natefaubion/purescript-run.git",
     "version": "v2.0.0"
@@ -1641,6 +1641,13 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "v4.0.0"
+  },
+  "unicode-prelude": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/vyorkin/purescript-unicode-prelude.git",
+    "version": "v0.2.3"
   },
   "unordered-collections": {
     "dependencies": [
