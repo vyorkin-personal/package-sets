@@ -523,6 +523,39 @@
     "repo": "https://github.com/slamdata/purescript-formatters.git",
     "version": "v4.0.0"
   },
+  "uri": {
+    "dependencies": [
+      "arrays",
+      "generics-rep",
+      "globals",
+      "integers",
+      "parsing",
+      "profunctor-lenses",
+      "unfoldable",
+      "these"
+    ],
+    "repo": "https://github.com/doolse/purescript-uri.git",
+    "version": "compiler/0.12"
+  },
+  "parsing": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "lists",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "strings",
+      "transformers",
+      "unicode"
+    ],
+    "repo": "https://github.com/joncfoo/purescript-parsing.git",
+    "version": "update-for-0.12.0"
+>>>>>>> Add uri and parsing packages (forked)
+  },
   "free": {
     "dependencies": [
       "catenable-lists",
