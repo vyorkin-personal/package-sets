@@ -104,6 +104,14 @@
     "repo": "git://github.com/purescript-contrib/purescript-argonaut-codecs.git",
     "version": "v4.0.0"
   },
+  "prettier": {
+    "dependencies": [
+      "prelude",
+      "maybe"
+    ],
+    "repo": "https://github.com/gcanti/purescript-prettier.git",
+    "version": "v0.2.0"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
