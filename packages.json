@@ -523,49 +523,6 @@
     "repo": "https://github.com/slamdata/purescript-formatters.git",
     "version": "v4.0.0"
   },
-  "uri": {
-    "dependencies": [
-      "arrays",
-      "generics-rep",
-      "globals",
-      "integers",
-      "parsing",
-      "profunctor-lenses",
-      "unfoldable",
-      "these"
-    ],
-    "repo": "https://github.com/doolse/purescript-uri.git",
-    "version": "compiler/0.12"
-  },
-  "remotedata": {
-    "dependencies": [
-      "bifunctors",
-      "either",
-      "generics-rep",
-      "profunctor-lenses"
-    ],
-    "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
-    "version": "v4.0.0"
-  },
-  "parsing": {
-    "dependencies": [
-      "arrays",
-      "either",
-      "foldable-traversable",
-      "identity",
-      "integers",
-      "lists",
-      "maybe",
-      "prelude",
-      "psci-support",
-      "strings",
-      "transformers",
-      "unicode"
-    ],
-    "repo": "https://github.com/joncfoo/purescript-parsing.git",
-    "version": "update-for-0.12.0"
->>>>>>> Add uri and parsing packages (forked)
-  },
   "free": {
     "dependencies": [
       "catenable-lists",
@@ -717,8 +674,8 @@
   },
   "halogen-css": {
     "dependencies": [
-      "css",
-      "halogen"
+      "halogen",
+      "css"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v8.0.0"
@@ -729,6 +686,15 @@
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
     "version": "v2.0.0"
+  },
+  "halogen-storybook": {
+    "dependencies": [
+      "halogen",
+      "routing",
+      "foreign-object"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
+    "version": "v0.3.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -745,44 +711,6 @@
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
     "version": "v3.0.0"
-  },
-  "halogen-css": {
-    "dependencies": [
-      "halogen",
-      "css"
-    ],
-    "repo": "https://github.com/slamdata/purescript-halogen-css.git",
-    "version": "v8.0.0"
-  },
-  "halogen-storybook": {
-    "dependencies": [
-      "halogen",
-      "routing",
-      "foreign-object"
-    ],
-    "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
-    "version": "v0.3.0"
-  },
-  "routing": {
-    "dependencies": [
-      "web-html",
-      "effect",
-      "either",
-      "globals",
-      "lists",
-      "maybe",
-      "prelude",
-      "semirings",
-      "tuples",
-      "validation",
-      "aff",
-      "control",
-      "console",
-      "integers",
-      "foldable-traversable"
-    ],
-    "repo": "https://github.com/slamdata/purescript-routing.git",
-    "version": "v8.0.0"
   },
   "http-methods": {
     "dependencies": [
@@ -1186,6 +1114,8 @@
       "integers",
       "lists",
       "maybe",
+      "prelude",
+      "psci-support",
       "strings",
       "transformers",
       "unicode"
@@ -1440,8 +1370,8 @@
     "dependencies": [
       "bifunctors",
       "either",
-      "profunctor-lenses",
-      "generics-rep"
+      "generics-rep",
+      "profunctor-lenses"
     ],
     "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
     "version": "v4.0.0"
@@ -1765,6 +1695,20 @@
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference",
     "version": "v3.0.0"
+  },
+  "uri": {
+    "dependencies": [
+      "arrays",
+      "generics-rep",
+      "globals",
+      "integers",
+      "parsing",
+      "profunctor-lenses",
+      "unfoldable",
+      "these"
+    ],
+    "repo": "https://github.com/doolse/purescript-uri.git",
+    "version": "compiler/0.12"
   },
   "validation": {
     "dependencies": [
