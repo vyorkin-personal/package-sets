@@ -672,6 +672,14 @@
     "repo": "https://github.com/slamdata/purescript-halogen.git",
     "version": "v4.0.0"
   },
+  "reflection": {
+    "dependencies": [
+      "unsafe-coerce",
+      "proxy"
+    ],
+    "repo": "https://github.com/paf31/purescript-reflection.git",
+    "version": "v4.0.0"
+  },
   "halogen-css": {
     "dependencies": [
       "halogen",
