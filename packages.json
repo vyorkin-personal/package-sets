@@ -271,8 +271,8 @@
       "colors",
       "console"
     ],
-    "repo": "https://github.com/slamdata/purescript-css.git",
-    "version": "v4.0.0"
+    "repo": "https://github.com/vyorkin-forks/purescript-css.git",
+    "version": "master"
   },
   "datetime": {
     "dependencies": [
