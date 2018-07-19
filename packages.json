@@ -670,7 +670,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/vyorkin-forks/purescript-halogen.git",
-    "version": "cubeplan-0.1.0-20180719"
+    "version": "v4.0.0"
   },
   "reflection": {
     "dependencies": [
