@@ -669,7 +669,7 @@
       "unsafe-reference",
       "web-uievents"
     ],
-    "repo": "https://github.com/vyorkin-forks/purescript-halogen.git",
+    "repo": "https://github.com/slamdata/purescript-halogen.git",
     "version": "v4.0.0"
   },
   "reflection": {
